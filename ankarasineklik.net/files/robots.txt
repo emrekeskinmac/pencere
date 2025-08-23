@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /contact.html
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://ankarasineklik.net/sitemap.xml
+
+# Disallow admin and temporary files
+Disallow: /admin/
+Disallow: /*.tmp$
+Disallow: /*.log$
+
+# Allow Google and Bing bots specifically
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay for politeness
+Crawl-delay: 1
