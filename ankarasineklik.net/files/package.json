@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npx serve -s . -p 3000",
     "build": "echo 'Static site - no build needed'",
+    "optimize-images": "npx @squoosh/cli --webp auto --oxipng auto assets/images/**/*.{jpg,jpeg,png}",
     "start": "npx serve -s . -p 3000"
   },
   "keywords": ["html", "css", "static-site", "marangoz", "ankara"],
